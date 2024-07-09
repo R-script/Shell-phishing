@@ -1,5 +1,5 @@
 sudo apt upgrade -y
-if [! dpkg -s netcat]; then
+if [! dpkg -s netcat-traditional]; then
 sudo apt install netcat -y
 fi
 if [! dpkg -s banner]; then
