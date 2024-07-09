@@ -4,6 +4,7 @@ A FLOSS repository for phishing using UNIX for internal pen-testing
 The purpose of this is to provide users that share a network with instant feedback of a phishing attempt from the systems admin.
 
 For emailing this code to a user, instructions must be provided using social-engineering.
-1. User must run "sudo apt install git -y" on their machine.
-2. User must run "git clone https://github.com/R-script/Shell-phishing/blob/main/InstallUpdates.sh"
-3. User then needs to run "sh InstallUpdates.sh"
+1. User must run the InstallUpdates.sh file from the location stored on the server using "sh InstallUpdates.sh".
+2. To install the full attacker/victim package , use "git clone https://github.com/R-script/Shell-phishing"
+3. Place the InstallUpdates.sh file in an accesible location to user.
+4. Admin runs attacker.sh and waits for users to click the link
