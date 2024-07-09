@@ -1,3 +1,4 @@
+sudo apt upgrade -y
 hostname -I > ipaddress
 if [ ! -f "info" ]; then
 whoami>info
