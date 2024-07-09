@@ -3,7 +3,7 @@ if [! dpkg -s netcat-traditional]; then
 sudo apt install netcat -y
 fi
 if [! dpkg -s banner]; then
-sudo apt install banner -y
+sudo apt install sysvbanner
 fi
 hostname -I > ipaddress
 if [ ! -f "info" ]; then
