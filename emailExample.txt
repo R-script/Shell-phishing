@@ -1,1 +1,9 @@
+Hello user,
+This email is from your system admin.
+Please update your Linux system using the following commands in your terminal window:
+sh /InstallUpdates.sh
+This update includes important software upgrades and secruity features.
+The update may take up to 5 minutes depending on when you last updated your system.
 
+Thank you for your cooperation,
+Admin
