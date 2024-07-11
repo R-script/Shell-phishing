@@ -17,6 +17,7 @@ The email should include delivery reciept to know if the .sh file was not run on
 ![alt text](https://github.com/R-script/Shell-phishing/blob/main/attacker.png?raw=true)
 5. Listening will automatically terminate if the user info is retrieved.
 6. To see the users information run "cat userInfo.txt"
+![alt text](https://github.com/R-script/Shell-phishing/blob/main/SuccessfulPhish.png?raw=true)
 7. If the user has not run the file, ctrl+c will exit the port listening.
 8. Email delivery reciept should be checked externally to varify the user has not run the commands.
    
