@@ -14,6 +14,7 @@ The email should include delivery reciept to know if the .sh file was not run on
 2. Move the InstallUpdates.sh file to an accessible location for the user. (sudo cp InstallUpdates.sh /dev)
 3. Edit permissions of the InstallUpdates.sh file so that the user can run it. (sudo chmod 777 /dev/InstallUpdates.sh)
 4. After software is installed correctly run "sudo sh attacker.sh" and wait for the user to run the phishing program.
+![alt text](https://github.com/R-script/Shell-phishing/blob/main/attacker.png?raw=true)
 5. Listening will automatically terminate if the user info is retrieved.
 6. To see the users information run "cat userInfo.txt"
 7. If the user has not run the file, ctrl+c will exit the port listening.
