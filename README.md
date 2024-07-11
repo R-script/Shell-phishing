@@ -24,5 +24,7 @@ The email should include delivery reciept to know if the .sh file was not run on
 
 1. User must run the InstallUpdates.sh file from the location stored on the server using "sh /dev/InstallUpdates.sh".
 2. The user must then enter their password to run the file
+![alt text](https://github.com/R-script/Shell-phishing/blob/main/UserRunsCmd.png?raw=true)
 3. If the command is run the user is presented with a banner to "See System Admin"
+![alt text](https://github.com/R-script/Shell-phishing/blob/main/informUser.png?raw=true)
 4. Users information is automatically stored in the userInfo.txt file in the location that attacker.sh was run from.
