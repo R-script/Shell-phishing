@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt upgrade -y
 sudo apt install netcat -y
 sudo apt install sysvbanner
